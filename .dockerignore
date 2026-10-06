@@ -1,0 +1,35 @@
+# Dependencies
+node_modules
+.npm
+.bun
+
+# Build outputs
+dist
+build
+.cache
+
+# Version control
+.git
+.gitignore
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE & OS
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Logs
+*.log
+logs
